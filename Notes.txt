@@ -1,0 +1,6 @@
+Write a java program to swap two variables using third variable
+Write a java program to swap two variables without using third variable
+Write a Java program to print a: 
+    i.   Area of the triangle (area = (1/2) * b * h)
+    ii.  Area of the rhombus  (area = (1/2) * d1 * d2)
+    iii. Area of trapezium    (area = (h/2) * (a + b))
