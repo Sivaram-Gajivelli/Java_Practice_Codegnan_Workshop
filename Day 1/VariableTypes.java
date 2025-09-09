@@ -28,5 +28,9 @@ public class VariableTypes {
         System.out.println("\nStatic Variables:");
         System.out.println("c: " + c);
         System.out.println("d: " + d);
+
+        // obj.f += 100; -----> returns error : cannot assign a value to final variable f
+
+        System.out.println("\nFinal varaible: " + obj.f);
     }
 }
