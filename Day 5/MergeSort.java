@@ -20,8 +20,7 @@ public class MergeSort {
             }
 
             else {
-                rightArr[j] = arr[i];
-                j++;
+                rightArr[j++] = arr[i];
             }
         }
 
@@ -37,28 +36,20 @@ public class MergeSort {
 
         while(l < leftSize && r < rightSize) {
             if(leftArr[l] < rightArr[r]) {
-                arr[i] = leftArr[l];
-                i++;
-                l++;
+                arr[i++] = leftArr[l++];
             }
 
             else {
-                arr[i] = rightArr[r];
-                i++;
-                r++;
+                arr[i++] = rightArr[r++];
             }
         }
 
         while(l < leftSize) {
-            arr[i] = leftArr[l];
-            i++;
-            l++;
+            arr[i++] = leftArr[l++];
         }
 
         while(r < rightSize) {
-            arr[i] = rightArr[r];
-            i++;
-            r++;
+            arr[i++] = rightArr[r++];
         }
     }
 
